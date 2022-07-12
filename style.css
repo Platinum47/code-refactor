@@ -200,16 +200,7 @@ footer{
 
 
 
-#workHistory{
-    display: flex;
-    justify-content: space-around;
-    background-color: grey;
-    padding-bottom: 150px;
-    border: 3px solid rgba(33, 180, 112, 0.432);
-    
-    
 
-}
 .random {
     height: 180px;
     width:75%;
@@ -223,4 +214,29 @@ footer{
     color: whitesmoke;
     display: flex;
     justify-content: center;
+}
+
+#workHistory {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(34, 34, 34);
+    margin: 25px;
+    height: 200px;
+    ;
+}
+
+#foot{
+    
+    height: 1000px;
+} 
+#top{
+    background-color: rgb(34, 34, 34);
+    /* border-bottom: solid 1px whitesmoke; */
+    height: 180px;
+    display: flex;
+    flex-direction:column;
+    justify-content: space-around;
+}
+#body{
+    background-color: black;
 }
